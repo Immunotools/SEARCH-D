@@ -46,10 +46,10 @@ def FindRSSOccurrences(seq, rss_df):
     matches_dict = {'HEPTAMER' : [], 'NONAMER' : []}
     for i in range(len(rss_df)):
         matches_dict[rss_df['Type'][i]].extend([m.start() for m in re.finditer(rss_df['Sequence'][i], seq)])
-    for hpos in matches_dict['HEPTAMER']:
-        for npos in matches_dict['NONAMER']:
-            if npos - hpos == 30:
-                print npos, hpos
+#    for hpos in matches_dict['HEPTAMER']:
+#        for npos in matches_dict['NONAMER']:
+#            if npos - hpos == 30:
+#                print npos, hpos
     return matches_dict
 
 def GetThreshold(prob_list, quan):
@@ -155,6 +155,6 @@ def main(ighd_fasta, output_fasta):
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        print 'python search_d.py IGHD_locus.fasta OUTPUT_FNAME.fasta'
+        print('python search_d.py IGHD_locus.fasta output.fasta')
         sys.exit(1)
     main(sys.argv[1], sys.argv[2])
