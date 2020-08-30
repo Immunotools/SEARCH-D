@@ -1,5 +1,5 @@
 # SEARCH-D
-An algorithm for de novo finding IGHD genes in IGH locus
+An algorithm for de novo finding immunoglobulin diversity (D) genes in IGH locus
 
 ## Requirements:
 - python 2 or 3
