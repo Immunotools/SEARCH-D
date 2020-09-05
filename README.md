@@ -2,7 +2,7 @@
 An algorithm for de novo finding immunoglobulin diversity (D) genes in IGH locus. 
 
 # Availability
-The tool is available as Supplemental Code of the manuscript "V(DD)J recombination is an important and evolutionary conserved mechanism for generating antibodies with unusually long CDR3s" by Safonova and Pevzner, 2020 at the [Genome Research](https://genome.cshlp.org/) (link will be added upon the publication). 
+The tool is available as Supplemental Code of the manuscript "V(DD)J recombination is an important and evolutionary conserved mechanism for generating antibodies with unusually long CDR3s" by Safonova and Pevzner, 2020 at the [Genome Research](https://genome.cshlp.org/) (link will be added upon publication). 
 
 ## Requirements:
 - python 2 or 3
